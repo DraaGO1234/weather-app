@@ -1,0 +1,24 @@
+.Forecast {
+  text-align: center;
+  max-width: 400px;
+}
+
+.Icon {
+  width: 5%;
+  position: relative;
+  top: -15px;
+  left: -5px;
+}
+
+.temperatures {
+  position: relative;
+  left: 30px;
+  top: -25px;
+}
+
+.hours {
+  text-align: center;
+}
+.row .col {
+  height: 100px;
+}

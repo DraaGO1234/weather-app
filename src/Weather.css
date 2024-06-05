@@ -1,0 +1,14 @@
+small {
+  position: absolute;
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  color: transparent;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #1995a8;
+}

@@ -1,0 +1,83 @@
+body {
+  font-family: "Lustria", serif;
+  color: #1995a8;
+}
+
+.Current {
+  padding: 35px;
+  margin: 70px auto;
+  max-width: 700px;
+  background-color: transparent;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  border-radius: 30px;
+}
+
+.Icontop {
+  position: relative;
+  top: -20px;
+  left: 40px;
+}
+
+.Weather li {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+  position: relative;
+  left: -40px;
+  top: -5px;
+}
+.CityName {
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  left: 20px;
+  font-size: 35px;
+}
+
+.Date {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  left: -13px;
+  top: -5px;
+}
+
+.Description {
+  font-size: 26px;
+  font-weight: 100;
+  line-height: 19px;
+  position: relative;
+  left: 2px;
+  top: -20px;
+  text-decoration: capit;
+  text-align: center;
+}
+
+.Description::first-letter {
+  text-transform: capitalize;
+}
+
+.Temperature {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  position: relative;
+  top: -30px;
+  right: -40px;
+}
+
+button {
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+  border-radius: 30px;
+}
+
+button:hover {
+  color: #1995a8;
+}
